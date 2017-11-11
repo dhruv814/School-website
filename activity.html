@@ -2,10 +2,9 @@
 <html class="no-js">
     <head>
         <meta charset="utf-8">
-        <title> Science Exhibition Photo Gallery </title>
+        <title>Dharamjivan Higher Secondary School</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
         <!-- Fonts -->
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Dosis:400,700' rel='stylesheet' type='text/css'>
@@ -13,22 +12,42 @@
         <!-- Bootsrap -->
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
-
         <!-- Font awesome -->
         <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 
-        <!-- PrettyPhoto -->
-        <link rel="stylesheet" href="assets/css/prettyPhoto.css">
+        <!-- Owl carousel -->
+        <link rel="stylesheet" href="assets/css/owl.carousel.css">
 
         <!-- Template main Css -->
         <link rel="stylesheet" href="assets/css/style.css">
         
         <!-- Modernizr -->
         <script src="assets/js/modernizr-2.6.2.min.js"></script>
+        <script src="assets/js/owl.carousel.js"></script>
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>
+        $(function() {
+          $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+              var target = $(this.hash);
+              target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+              if (target.length) {
+                $('html,body').animate({
+                  scrollTop: target.offset().top
+                }, 1000);
+                return false;
+              }
+            }
+          });
+        });
+        </script>
 
 
     </head>
+
     <body>
+
     <header class="main-header">
         
     
@@ -82,9 +101,9 @@
                   </a>
                   
                 </div>
-                <br>
-                <br>
-                <br>
+				<br>
+				<br>
+				<br>
                 <div id="navbar" class="navbar-collapse collapse pull-left">
 
                   <ul class="nav navbar-nav">
@@ -113,9 +132,9 @@
                          <li class="submenu-item"><a href="causes-single.html">HSC-Commerce</a></li>
                       </ul>
                     </li>
-                    <li class="has-child"><a href="activity.html">ACTIVITIES</a>
+                    <li class="has-child"><a class="is-active" href="result.html">ACTIVITIES</a>
                     </li>
-                    <li><a class="is-active" href="gallery.html">GALLERY</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
                     <li><a href="contact.html">CONTACT US</a></li>
                     <li>
                         <form class="navbar-form" role="search">
@@ -137,163 +156,135 @@
         </nav> 
 
     </header> <!-- /. main-header -->
+    
+
+    <div class="section-home home-reasons">
+
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-md-6">
+
+                    <div class="reasons-col animate-onscroll fadeIn">
+
+                        <img src="assets/images/activity/Slide32.jpg" alt="">
+
+                        <div class="reasons-titles">
+
+                            <h3 class="reasons-title">Parents Meeting</h3>
+                            <h5 class="reason-subtitle">Taking care of students</h5>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
 
 
-	<div class="page-heading text-center">
+                <div class="col-md-6">
 
-		<div class="container zoomIn animated">
-			
-			<h1 class="page-title">SCIENCE EXHIBITION GALLERY <span class="title-under"></span></h1>
-			<p class="page-description">
-				Class 9th and 10th.
-			</p>
-			
-		</div>
+                    <div class="reasons-col animate-onscroll fadeIn">
 
-	</div>
+                        <img src="assets/images/activity/Slide36.jpg" alt="">
 
-	<div class="main-container">
+                        <div class="reasons-titles">
 
-		<div class="container gallery fadeIn animated">
+                            <h3 class="reasons-title">Tours</h3>
+                            <h5 class="reason-subtitle">Enjoy student life</h5>
+                            
+                        </div>
 
-			<div class="row">
-				
+                    </div>
+                </div>
+            </div>
+        </div>      
 
-					<a href="assets/images/gallery/7610291856_931fb9f461_k.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
+    </div> <!-- /.home-reasons -->
 
-						<img src="assets/images/gallery/thumb/7610291856_931fb9f461_k.jpg" alt="">
+    <div class="section-home home-reasons">
 
-						<span class="on-hover">
-							<span class="hover-caption">Image Caption</span>
-						</span>
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-md-6">
 
-					</a> <!-- /.gallery-item -->
+                    <div class="reasons-col animate-onscroll fadeIn">
 
-					<a href="assets/images/gallery/children-82272_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
+                        <img src="assets/images/activity/Slide46.jpg" alt="">
 
-						<img src="assets/images/gallery/thumb/children-82272_1280.jpg" alt="">
-						
-						<span class="on-hover">
-							<span class="hover-caption">Image Caption</span>
-						</span>
-						
-					</a> <!-- /.gallery-item -->
+                        <div class="reasons-titles">
 
-
-					<a href="assets/images/gallery/human-rights.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
-
-						<img src="assets/images/gallery/thumb/human-rights.jpg" alt="">
-						
-						<span class="on-hover">
-							<span class="hover-caption">Image Caption</span>
-						</span>
-						
-					</a> <!-- /.gallery-item -->
+                            <h3 class="reasons-title">Navratri Celebration</h3>
+                            <h5 class="reason-subtitle">Enjoy festivals</h5>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
 
 
-					<a href="assets/images/gallery/old-books-436498_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
+                <div class="col-md-6">
 
-						<img src="assets/images/gallery/thumb/old-books-436498_1280.jpg" alt="">
-						
-						<span class="on-hover">
-							<span class="hover-caption">Image Caption</span>
-						</span>
-						
-					</a> <!-- /.gallery-item -->
+                    <div class="reasons-col animate-onscroll fadeIn">
 
-					<a href="assets/images/gallery/hunger-682834_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
+                        <img src="assets/images/activity/Slide50.jpg" alt="">
 
-						<img src="assets/images/gallery/thumb/hunger-682834_1280.jpg" alt="">
-						
-						<span class="on-hover">
-							<span class="hover-caption">Image Caption</span>
-						</span>
-						
-					</a> <!-- /.gallery-item -->
+                        <div class="reasons-titles">
 
-					<a href="assets/images/gallery/africa-education.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
+                            <h3 class="reasons-title">Sport day</h3>
+                            <h5 class="reason-subtitle">Enjoy games</h5>
+                            
+                        </div>
 
-						<img src="assets/images/gallery/thumb/africa-education.jpg" alt="">
-						
-						<span class="on-hover">
-							<span class="hover-caption">Image Caption</span>
-						</span>
-						
-					</a> <!-- /.gallery-item -->
+                    </div>
+                </div>
+            </div>
+        </div>      
 
+    </div>
 
-					<a href="assets/images/gallery/afghani-60798_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
+    <div class="section-home home-reasons">
 
-						<img src="assets/images/gallery/thumb/afghani-60798_1280.jpg" alt="">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-md-6">
 
-						<span class="on-hover">
-							<span class="hover-caption">Image Caption</span>
-						</span>
+                    <div class="reasons-col animate-onscroll fadeIn">
 
-					</a> <!-- /.gallery-item -->
+                        <img src="assets/images/activity/Slide57.jpg" alt="">
 
-					<a href="assets/images/gallery/boy-60729_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
+                        <div class="reasons-titles">
 
-						<img src="assets/images/gallery/thumb/boy-60729_1280.jpg" alt="">
-						
-						<span class="on-hover">
-							<span class="hover-caption">Image Caption</span>
-						</span>
-						
-					</a> <!-- /.gallery-item -->
+                            <h3 class="reasons-title">Science Fair</h3>
+                            <h5 class="reason-subtitle">Enjoy science</h5>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
 
 
-					<a href="assets/images/gallery/child-207573_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
+                <div class="col-md-6">
 
-						<img src="assets/images/gallery/thumb/child-207573_1280.jpg" alt="">
-						
-						<span class="on-hover">
-							<span class="hover-caption">Image Caption</span>
-						</span>
-						
-					</a> <!-- /.gallery-item -->
+                    <div class="reasons-col animate-onscroll fadeIn">
 
+                        <img src="assets/images/activity/Slide62.jpg" alt="">
 
-					<a href="assets/images/gallery/children-60654_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
+                        <div class="reasons-titles">
 
-						<img src="assets/images/gallery/thumb/children-60654_1280.jpg" alt="">
-						
-						<span class="on-hover">
-							<span class="hover-caption">Image Caption</span>
-						</span>
-						
-					</a> <!-- /.gallery-item -->
+                            <h3 class="reasons-title">Visited By famous news channal</h3>
+                            <h5 class="reason-subtitle">Etv news gujarati</h5>
+                            
+                        </div>
 
-					<a href="assets/images/gallery/doll-87407_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
+                    </div>
+                </div>
+            </div>
+        </div>      
 
-						<img src="assets/images/gallery/thumb/doll-87407_1280.jpg" alt="">
-						
-						<span class="on-hover">
-							<span class="hover-caption">Image Caption</span>
-						</span>
-						
-					</a> <!-- /.gallery-item -->
-
-					<a href="assets/images/gallery/girl-62328_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
-
-						<img src="assets/images/gallery/thumb/girl-62328_1280.jpg" alt="">
-						
-						<span class="on-hover">
-							<span class="hover-caption">Image Caption</span>
-						</span>
-						
-					</a> <!-- /.gallery-item -->
-					
-				
-			</div>
-			
-		</div>
-
-
-	</div> <!-- /.main-container  -->
-
-
-     <footer class="main-footer">
+    </div>
+    
+    <footer class="main-footer">
 
         <div class="footer-top">
             
@@ -422,29 +413,120 @@
 
 
 
-       
-        
-        <!-- jQuery -->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="assets/js/jquery-1.11.1.min.js"><\/script>')</script>
+    <!-- Donate Modal -->
+    <div class="modal fade" id="donateModal" tabindex="-1" role="dialog" aria-labelledby="donateModalLabel" aria-hidden="true">
 
-        <!-- Bootsrap javascript file -->
-        <script src="assets/js/bootstrap.min.js"></script>
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="donateModalLabel">DONATE NOW</h4>
+          </div>
+          <div class="modal-body">
 
-        <!-- PrettyPhoto javascript file -->
-        <script src="assets/js/jquery.prettyPhoto.js"></script>
+                <form class="form-donation">
 
-        <!-- Template main javascript -->
-        <script src="assets/js/main.js"></script>
+                        <h3 class="title-style-1 text-center">Thank you for your donation <span class="title-under"></span>  </h3>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
+                        <div class="row">
+
+                            <div class="form-group col-md-12 ">
+                                <input type="text" class="form-control" id="amount" placeholder="AMOUNT(€)">
+                            </div>
+
+                        </div>
+
+
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" name="firstName" placeholder="First name*">
+                            </div>
+
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" name="lastName" placeholder="Last name*">
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" name="email" placeholder="Email*">
+                            </div>
+
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" name="phone" placeholder="Phone">
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+
+                            <div class="form-group col-md-12">
+                                <input type="text" class="form-control" name="address" placeholder="Address">
+                            </div>
+
+                        </div>
+
+
+                        <div class="row">
+
+                            <div class="form-group col-md-12">
+                                <textarea cols="30" rows="4" class="form-control" name="note" placeholder="Additional note"></textarea>
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+
+                            <div class="form-group col-md-12">
+                                <button type="submit" class="btn btn-primary pull-right" name="donateNow" >DONATE NOW</button>
+                            </div>
+
+                        </div>
+
+
+
+                       
+                    
+                </form>
+            
+          </div>
+        </div>
+      </div>
+
+    </div> <!-- /.modal -->
+
+
+
+
+
+    <!--  Scripts
+    ================================================== -->
+
+
+    <!-- jQuery -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/jquery-1.11.1.min.js"><\/script>')</script>
+
+    <!-- Bootsrap javascript file -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    
+    <!-- owl carouseljavascript file -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+
+    <!-- Template main javascript -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
     </body>
 </html>

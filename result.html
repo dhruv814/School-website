@@ -2,7 +2,7 @@
 <html class="no-js">
     <head>
         <meta charset="utf-8">
-        <title> Science Exhibition Photo Gallery </title>
+        <title>Result</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -13,25 +13,29 @@
         <!-- Bootsrap -->
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
-
         <!-- Font awesome -->
         <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 
-        <!-- PrettyPhoto -->
-        <link rel="stylesheet" href="assets/css/prettyPhoto.css">
-
         <!-- Template main Css -->
         <link rel="stylesheet" href="assets/css/style.css">
+
+        <!-- Owl carousel -->
+        <link rel="stylesheet" href="assets/css/owl.carousel.css">
         
         <!-- Modernizr -->
         <script src="assets/js/modernizr-2.6.2.min.js"></script>
+        <script src="assets/js/owl.carousel.js"></script>
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
 
     </head>
     <body>
-    <header class="main-header">
-        
-    
+    <!-- NAVBAR
+    ================================================== -->
+
+     <header class="main-header">
+     
         <nav class="navbar navbar-static-top">
 
             <div class="navbar-top">
@@ -82,9 +86,9 @@
                   </a>
                   
                 </div>
-                <br>
-                <br>
-                <br>
+				<br>
+				<br>
+				<br>
                 <div id="navbar" class="navbar-collapse collapse pull-left">
 
                   <ul class="nav navbar-nav">
@@ -97,15 +101,7 @@
                          <li class="submenu-item"><a href="#mv">MISSION & VISION</a></li>
                       </ul>
                     </li>
-                    <li class="has-child"><a href="#">ACEDEMICS</a>
-                      <ul class="submenu">
-                         <li class="submenu-item"><a href="causes.html">PRINCIPAL</a></li>
-                         <li class="submenu-item"><a href="faculty.html">FACULTY</a></li>
-                         <li class="submenu-item"><a href="result.html">OUR RESULTS</a></li>
-                          
-                      </ul>
-                    </li>
-                    <li class="has-child"><a href="#">STUDENT CORNER</a>
+                    <li class="has-child"><a href="#">ACADEMICS</a>
                       <ul class="submenu">
                          <li class="submenu-item"><a href="causes.html">STD 9</a></li>
                          <li class="submenu-item"><a href="causes-single.html">STD 10 </a></li>
@@ -113,9 +109,16 @@
                          <li class="submenu-item"><a href="causes-single.html">HSC-Commerce</a></li>
                       </ul>
                     </li>
-                    <li class="has-child"><a href="activity.html">ACTIVITIES</a>
+                    <li class="has-child"><a class="is-active" href="result.html">OUR RESULTS</a>
                     </li>
-                    <li><a class="is-active" href="gallery.html">GALLERY</a></li>
+                    <li class="has-child"><a href="#">SCHOOL INFORMATION</a>
+                      <ul class="submenu">
+                         <li class="submenu-item"><a href="causes.html">PRINCIPAL</a></li>
+                         <li class="submenu-item"><a href="faculty.html">FACULTY</a></li>
+                          
+                      </ul>
+                    </li>
+                    <li><a href="gallery.html">PHOTO GALLERY</a></li>
                     <li><a href="contact.html">CONTACT US</a></li>
                     <li>
                         <form class="navbar-form" role="search">
@@ -138,162 +141,124 @@
 
     </header> <!-- /. main-header -->
 
+    <div class="col-details">
+        <marquee behavior="alternate" direction="left" scrollamount="5" onmouseover=this.stop() onmouseout=this.start()>
+          <img src="assets/images/result/slide/Slide5.jpg" alt="vm1" height="300px" width="33%"> 
+          <img src="assets/images/result/slide/Slide6.jpg" alt="vm1" height="300px" width="33%"> 
+          <img src="assets/images/result/slide/Slide7.jpg" alt="vm1" height="300px" width="33%"> 
+          <img src="assets/images/result/slide/Slide8.jpg" alt="vm1" height="300px" width="33%"> 
+          <img src="assets/images/result/slide/Slide9.jpg" alt="vm1" height="300px" width="33%"> 
+          <img src="assets/images/result/slide/Slide10.jpg" alt="vm1" height="300px" width="33%"> 
+          <img src="assets/images/result/slide/Slide11.jpg" alt="vm1" height="300px" width="33%"> 
+          <img src="assets/images/result/slide/Slide12.jpg" alt="vm1" height="300px" width="33%"> 
+          <img src="assets/images/result/slide/Slide13.jpg" alt="vm1" height="300px" width="33%"> 
+          <img src="assets/images/result/slide/Slide14.jpg" alt="vm1" height="300px" width="33%"> 
+        </marquee>
+    </div>  
 
-	<div class="page-heading text-center">
+	<div class="main-container">
+		
+	    <div class="our-team animate-onscroll fadeIn">
 
-		<div class="container zoomIn animated">
-			
-			<h1 class="page-title">SCIENCE EXHIBITION GALLERY <span class="title-under"></span></h1>
-			<p class="page-description">
-				Class 9th and 10th.
-			</p>
-			
-		</div>
+	        <div class="container">
+
+	            <h2 class="title-style-1">STANDARD 11 - SCIENCE<span class="title-under"></span></h2>
+
+	            <div class="row">
+
+	                <div class="col-md-3 col-sm-6">
+
+	                    <div class="team-member">
+
+	                        <div class="thumnail">
+
+	                            <img src="assets/images/result/11sci/1 tushal - 99.96    maths-100   phy-99     che-96.jpg" alt="" class="cause-img">
+	                            
+	                        </div>
+	                        <h4 class="member-name"><a href="#">TUSHAL</a></h4>
+
+	                        <div class="member-position">
+	                            99.96 PR  &nbsp M-100 P-99 C-96
+	                        </div>
+	                    </div> <!-- /.team-member -->
+	                    
+	                </div>
+
+	                <div class="col-md-3 col-sm-6">
+
+	                    <div class="team-member">
+
+	                        <div class="thumnail">
+
+	                            <img src="assets/images/result/11sci/2  parth - 97.49.jpg" alt="" class="cause-img">
+	                            
+	                        </div>
+	                        <h4 class="member-name"><a href="#">PARTH</a></h4>
+
+	                        <div class="member-position">
+	                           97.49 PR
+	                        </div>
+
+	                        
+	                    </div> <!-- /.team-member -->
+	                    
+	                </div>
+
+
+	                <div class="col-md-3 col-sm-6">
+
+	                    <div class="team-member">
+
+	                        <div class="thumnail">
+
+	                            <img src="assets/images/result/11sci/3  fenil - 97.38.jpg" alt="" class="cause-img">
+	                            
+	                        </div>
+
+	                        <h4 class="member-name"><a href="#">FENIL</a></h4>
+
+	                        <div class="member-position">
+	                            97.38 PR
+	                        </div>
+
+	                    </div> <!-- /.team-member -->
+	                    
+	                </div>
+
+
+	                <div class="col-md-3 col-sm-6">
+
+	                    <div class="team-member">
+
+	                        <div class="thumnail">
+
+	                            <img src="assets/images/result/11sci/5  himanshu - 96.22.jpg" alt="" class="cause-img">
+	                            
+	                        </div>
+
+	                        <h4 class="member-name"><a href="#">HIMANSHU</a></h4>
+
+	                        <div class="member-position">
+	                            96.22
+	                        </div>
+
+	                        
+	                    </div> <!-- /.team-member -->
+	                    
+	                </div>
+
+	            </div> <!-- /.row -->
+
+	        </div>
+
+	    </div>
+		
+
 
 	</div>
 
-	<div class="main-container">
 
-		<div class="container gallery fadeIn animated">
-
-			<div class="row">
-				
-
-					<a href="assets/images/gallery/7610291856_931fb9f461_k.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
-
-						<img src="assets/images/gallery/thumb/7610291856_931fb9f461_k.jpg" alt="">
-
-						<span class="on-hover">
-							<span class="hover-caption">Image Caption</span>
-						</span>
-
-					</a> <!-- /.gallery-item -->
-
-					<a href="assets/images/gallery/children-82272_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
-
-						<img src="assets/images/gallery/thumb/children-82272_1280.jpg" alt="">
-						
-						<span class="on-hover">
-							<span class="hover-caption">Image Caption</span>
-						</span>
-						
-					</a> <!-- /.gallery-item -->
-
-
-					<a href="assets/images/gallery/human-rights.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
-
-						<img src="assets/images/gallery/thumb/human-rights.jpg" alt="">
-						
-						<span class="on-hover">
-							<span class="hover-caption">Image Caption</span>
-						</span>
-						
-					</a> <!-- /.gallery-item -->
-
-
-					<a href="assets/images/gallery/old-books-436498_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
-
-						<img src="assets/images/gallery/thumb/old-books-436498_1280.jpg" alt="">
-						
-						<span class="on-hover">
-							<span class="hover-caption">Image Caption</span>
-						</span>
-						
-					</a> <!-- /.gallery-item -->
-
-					<a href="assets/images/gallery/hunger-682834_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
-
-						<img src="assets/images/gallery/thumb/hunger-682834_1280.jpg" alt="">
-						
-						<span class="on-hover">
-							<span class="hover-caption">Image Caption</span>
-						</span>
-						
-					</a> <!-- /.gallery-item -->
-
-					<a href="assets/images/gallery/africa-education.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
-
-						<img src="assets/images/gallery/thumb/africa-education.jpg" alt="">
-						
-						<span class="on-hover">
-							<span class="hover-caption">Image Caption</span>
-						</span>
-						
-					</a> <!-- /.gallery-item -->
-
-
-					<a href="assets/images/gallery/afghani-60798_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
-
-						<img src="assets/images/gallery/thumb/afghani-60798_1280.jpg" alt="">
-
-						<span class="on-hover">
-							<span class="hover-caption">Image Caption</span>
-						</span>
-
-					</a> <!-- /.gallery-item -->
-
-					<a href="assets/images/gallery/boy-60729_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
-
-						<img src="assets/images/gallery/thumb/boy-60729_1280.jpg" alt="">
-						
-						<span class="on-hover">
-							<span class="hover-caption">Image Caption</span>
-						</span>
-						
-					</a> <!-- /.gallery-item -->
-
-
-					<a href="assets/images/gallery/child-207573_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
-
-						<img src="assets/images/gallery/thumb/child-207573_1280.jpg" alt="">
-						
-						<span class="on-hover">
-							<span class="hover-caption">Image Caption</span>
-						</span>
-						
-					</a> <!-- /.gallery-item -->
-
-
-					<a href="assets/images/gallery/children-60654_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
-
-						<img src="assets/images/gallery/thumb/children-60654_1280.jpg" alt="">
-						
-						<span class="on-hover">
-							<span class="hover-caption">Image Caption</span>
-						</span>
-						
-					</a> <!-- /.gallery-item -->
-
-					<a href="assets/images/gallery/doll-87407_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
-
-						<img src="assets/images/gallery/thumb/doll-87407_1280.jpg" alt="">
-						
-						<span class="on-hover">
-							<span class="hover-caption">Image Caption</span>
-						</span>
-						
-					</a> <!-- /.gallery-item -->
-
-					<a href="assets/images/gallery/girl-62328_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
-
-						<img src="assets/images/gallery/thumb/girl-62328_1280.jpg" alt="">
-						
-						<span class="on-hover">
-							<span class="hover-caption">Image Caption</span>
-						</span>
-						
-					</a> <!-- /.gallery-item -->
-					
-				
-			</div>
-			
-		</div>
-
-
-	</div> <!-- /.main-container  -->
-
-
-     <footer class="main-footer">
+    <footer class="main-footer">
 
         <div class="footer-top">
             
@@ -424,27 +389,27 @@
 
        
         
-        <!-- jQuery -->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="assets/js/jquery-1.11.1.min.js"><\/script>')</script>
+    <!-- jQuery -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/jquery-1.11.1.min.js"><\/script>')</script>
 
-        <!-- Bootsrap javascript file -->
-        <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Bootsrap javascript file -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    
+    <!-- owl carouseljavascript file -->
+    <script src="assets/js/owl.carousel.min.js"></script>
 
-        <!-- PrettyPhoto javascript file -->
-        <script src="assets/js/jquery.prettyPhoto.js"></script>
+    <!-- Template main javascript -->
+    <script src="assets/js/main.js"></script>
 
-        <!-- Template main javascript -->
-        <script src="assets/js/main.js"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
     </body>
 </html>
